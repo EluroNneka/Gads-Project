@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FormActivity">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:background="@color/colorPrimaryDark"
+                  android:id="@+id/layout"
+                  android:layout_marginVertical="@dimen/margin"
+                  android:layout_marginBottom="@dimen/margin"
+                  app:layout_constraintTop_toBottomOf="parent"
+                  app:layout_constraintBottom_toTopOf="@+id/email"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                 android:id="@+id/fname">
+
+        </TextView>
+        <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:id="@+id/lname">
+
+        </TextView>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+              app:layout_constraintTop_toBottomOf="@+id/layout"
+              app:layout_constraintBottom_toTopOf="@+id/link"
+              android:id="@+id/email"
+              android:layout_marginBottom="@dimen/margin">
+
+    </TextView>
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+              android:id="@+id/link"
+              app:layout_constraintTop_toBottomOf="@+id/email"
+              app:layout_constraintBottom_toBottomOf="parent"
+              android:layout_marginBottom="@dimen/margin">
+
+    </TextView>
+    <Button android:layout_width="match_parent" android:layout_height="match_parent"
+            android:id="@+id/submit_button">
+        <item
+            android:title="@string/submit"
+            android:drawable="@drawable/submitbn">
+        </item>
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

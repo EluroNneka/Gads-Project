@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_leaders_list">LeadersListActivity</string>
+    <string name="tab_text_1">Learning Leaders</string>
+    <string name="tab_text_2">Skill IQ Leaders</string>
+    <string name="confirmation">Are You sure</string>
+    <string name="send"> YES </string>
+    <string name="success">Submission Successful</string>
+    <string name="fail">Submission not successful</string>
+    <string name="screen_title">LEADERBOARD</string>
+    <string name="submit">Submit</string>
+</resources>
